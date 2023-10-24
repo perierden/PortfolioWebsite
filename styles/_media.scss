@@ -1,16 +1,6 @@
 
 @media screen and (max-width: 800px) {
     
-
-    .name-type{
-        font-size: 60px;
-        border: 0px;
-    }
-
-    .caption-type{
-        font-size: 35px;
-    }
-
     .controls{
         top: auto;
         bottom: 0;
@@ -21,4 +11,44 @@
         );
 
     }
+
+// Home Page
+    
+    .name-type{
+        font-size: 40px;
+        border: 0px;
+        padding-bottom: 0.75rem;
+    }
+
+    .caption-type{
+        font-size: 25px;
+        padding-bottom: 0.2rem;
+    }
+
+    .c-b{
+        padding: 0.4rem 1rem;
+        font-size: 10px;
+    }
+
+// About Me
+    .section{
+        padding: 0.5rem;
+    }
+    .about .tools {
+        width: 90%;
+    }
+
+    .about .sub-title {
+        margin-top: 3rem;
+    }
+
+// Portfolio
+
+    .desc{
+        font-size: 10px;
+    }
+
+    
+
+    
 }
